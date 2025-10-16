@@ -1,0 +1,14 @@
+src/
+ └─ br/
+    └─ universidade/
+       └─ repo/
+          ├─ app/
+          │   └─ Main.java
+          ├─ modelo/
+          │   ├─ Aluno.java
+          │   └─ Livro.java
+          └─ repositorio/
+              ├─ NegocioException.java
+              ├─ Repositorio.java
+              ├─ RepositorioAlunoArray.java
+              └─ RepositorioLivroArray.java

@@ -1,0 +1,2 @@
+javac br/universidade/repo/app/*java
+java br/universidade/repo/app/Main

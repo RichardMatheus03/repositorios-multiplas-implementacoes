@@ -1,0 +1,27 @@
+Atividade 2 – Repositório com Interfaces e Múltiplas Implementações (3 pts)
+
+Entrega: 13/10/2025
+
+Aulas relacionadas:
+Interfaces, múltipla implementação e modularização (packages/import) (25/09/2025 - 25/09/2025)
+Polimorfismo: Overload vs Overrride + exemplos práticos (07/10/2025 - 07/10/2025)
+
+Exercitar interfaces, múltiplas implementações e organização por packages, usando apenas arrays (nada de ArrayList/HashMap) e sem Generics.
+
+Requisitos
+Crie a interface Repositorio (sem generics) com métodos:
+	void adicionar(Object obj)
+	void remover(String chave)
+	Object buscar(String chave)
+	Object[] listar() (retorna uma cópia apenas com posições válidas)
+Implemente duas classes que implementem a mesma interface (múltipla implementação):
+	RepositorioAlunoArray → armazena Aluno[] (chave = matrícula).
+	RepositorioLivroArray → armazena Livro[] (chave = título).
+
+Packages: modelo, repositorio, app.
+Demonstre no Main as operações: adicionar, listar, buscar, remover para alunos e livros.
+
+Critérios (3 pts)
+1,0 pt → Interface + duas implementações funcionais, sem Generics/coleções, com arrays e busca linear.
+1,0 pt → Testes em Main com Aluno e Livro, cobrindo adicionar/buscar/listar/remover.
+1,0 pt → Modularização (packages), nomes claros, validações e mensagens amigáveis.
